@@ -1,0 +1,556 @@
+{
+  "search_metadata":
+  {
+    "id":
+    "6636f33810d74417a04ccf40",
+    "status":
+    "Success",
+    "json_endpoint":
+    "https://serpapi.com/searches/d6ad4d57b172fde5/6636f33810d74417a04ccf40.json",
+    "created_at":
+    "2024-05-05 02:47:20 UTC",
+    "processed_at":
+    "2024-05-05 02:47:20 UTC",
+    "google_url":
+    "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&uule=w+CAIQICIaQXVzdGluLFRleGFzLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file":
+    "https://serpapi.com/searches/d6ad4d57b172fde5/6636f33810d74417a04ccf40.html",
+    "total_time_taken":
+    1.78
+  },
+  "search_parameters":
+  {
+    "engine":
+    "google",
+    "q":
+    "benefits of tea",
+    "location_requested":
+    "Austin, Texas, United States",
+    "location_used":
+    "Austin,Texas,United States",
+    "google_domain":
+    "google.com",
+    "hl":
+    "en",
+    "gl":
+    "us",
+    "device":
+    "desktop"
+  },
+  "search_information":
+  {
+    "query_displayed":
+    "benefits of tea",
+    "total_results":
+    1350000000,
+    "time_taken_displayed":
+    0.36,
+    "organic_results_state":
+    "Results for exact spelling"
+  },
+  "related_questions":
+  [
+    {
+      "question":
+      "Is it healthy to drink tea every day?",
+      "snippet":
+      "To reap the health benefits of tea, you should be consistent and drink your tea daily. On top of this, depending on your lifestyle and overall health, or if you are trying to lose weight or manage a chronic condition, you may want to drink more than one cup per day.",
+      "title":
+      "How Much Tea Should | Drink A Day? - Art of Tea",
+      "link":
+      "https://www.artoftea.com/blogs/health-lifestyle/how-much-tea-should-i-drink-a-day#:~:text=To%20reap%20the%20health%20benefits,than%20one%20cup%20per%20day.",
+      "displayed_link":
+      "https://www.artoftea.com › blogs › health-lifestyle › how...",
+      "source_logo":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/d58e173386a4d39a955fa273b5b98897123105123fbe09ae91823ef6dff9741e.png",
+      "next_page_token":
+      "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiSXMgaXQgaGVhbHRoeSB0byBkcmluayB0ZWEgZXZlcnkgZGF5PyIsImxrIjoiR2lOcGN5QnBkQ0JvWldGc2RHaDVJSFJ2SUdSeWFXNXJJSFJsWVNCbGRtVnllV1JoZVEiLCJicyI6ImMtTUs1RkwxTEZiSUxGSElTRTNNS2Ntb1ZDakpWMGdweXN6TFZpaEpUVlJJTFVzdHFsUklTYXkwbC1nU05GS1ZVczRrb0Jhb2xNdUhTeWs4STdGRUliRW9WYUVrSTFVaE56RXpUeUVwTlM4MUxiT2tXQ0VfRGFUYVhtS2xqNUd5bEdJNUlZVmNBVnhxWU5OQVZtUWtGa01VNWhmREhBRlhieTl4TndKa0lraGRlU1pRQXBkQ3JoZ3VMUlQzSWRzSTlrNW1YcnBDUm40SnhKM3JhNHkwcFRUTGlkVWd3QWdBIiwiaWQiOiJmY18xIn0=",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiSXMgaXQgaGVhbHRoeSB0byBkcmluayB0ZWEgZXZlcnkgZGF5PyIsImxrIjoiR2lOcGN5QnBkQ0JvWldGc2RHaDVJSFJ2SUdSeWFXNXJJSFJsWVNCbGRtVnllV1JoZVEiLCJicyI6ImMtTUs1RkwxTEZiSUxGSElTRTNNS2Ntb1ZDakpWMGdweXN6TFZpaEpUVlJJTFVzdHFsUklTYXkwbC1nU05GS1ZVczRrb0Jhb2xNdUhTeWs4STdGRUliRW9WYUVrSTFVaE56RXpUeUVwTlM4MUxiT2tXQ0VfRGFUYVhtS2xqNUd5bEdJNUlZVmNBVnhxWU5OQVZtUWtGa01VNWhmREhBRlhieTl4TndKa0lraGRlU1pRQXBkQ3JoZ3VMUlQzSWRzSTlrNW1YcnBDUm40SnhKM3JhNHkwcFRUTGlkVWd3QWdBIiwiaWQiOiJmY18xIn0%3D"
+    },
+    {
+      "question":
+      "What are the main benefits of tea?",
+      "snippet":
+      "All varieties of tea (black, white, green and oolong) are a rich source of protective plant compounds, called polyphenols. Regularly consuming these polyphenols may help protect the cells of the body from damage and as a result reduce the risk of chronic diseases like heart disease, diabetes and cancer.",
+      "title":
+      "Top 10 health benefits of tea - BBC Good Food",
+      "date":
+      "Aug 25, 2023",
+      "link":
+      "https://www.bbcgoodfood.com/howto/guide/top-10-health-benefits-of-tea#:~:text=All%20varieties%20of%20tea%20(black,heart%20disease%2C%20diabetes%20and%20cancer.",
+      "displayed_link":
+      "https://www.bbcgoodfood.com › How to › Guide",
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbFte5TcYGgae54-mwiUsO57yI-_shGsrD3mE-h9icg&s",
+      "next_page_token":
+      "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIG1haW4gYmVuZWZpdHMgb2YgdGVhPyIsImxrIjoiR2lGM2FHRjBJR0Z5WlNCMGFHVWdiV0ZwYmlCaVpXNWxabWwwY3lCdlppQjBaV0UiLCJicyI6ImMtTUs1RkwxTEZiSUxGSElTRTNNS2Ntb1ZDakpWMGdweXN6TFZpaEpUVlJJTFVzdHFsUklTYXkwbC1nU05GS1ZVczRrb0Jhb2xNdUhTeWs4STdGRUliRW9WYUVrSTFVaE56RXpUeUVwTlM4MUxiT2tXQ0VfRGFUYVhtS2xqNUd5bEdJNUlZVmNBVnhxWU5OQVZtUWtGa01VNWhmREhBRlhieTl4TndKa0lraGRlU1pRQXBkQ3JoZ3VMUlQzSWRzSTlrNW1YcnBDUm40SnhKM3JhNHkwcFRUTGlkVWd3QWdBIiwiaWQiOiJmY18xIn0=",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIG1haW4gYmVuZWZpdHMgb2YgdGVhPyIsImxrIjoiR2lGM2FHRjBJR0Z5WlNCMGFHVWdiV0ZwYmlCaVpXNWxabWwwY3lCdlppQjBaV0UiLCJicyI6ImMtTUs1RkwxTEZiSUxGSElTRTNNS2Ntb1ZDakpWMGdweXN6TFZpaEpUVlJJTFVzdHFsUklTYXkwbC1nU05GS1ZVczRrb0Jhb2xNdUhTeWs4STdGRUliRW9WYUVrSTFVaE56RXpUeUVwTlM4MUxiT2tXQ0VfRGFUYVhtS2xqNUd5bEdJNUlZVmNBVnhxWU5OQVZtUWtGa01VNWhmREhBRlhieTl4TndKa0lraGRlU1pRQXBkQ3JoZ3VMUlQzSWRzSTlrNW1YcnBDUm40SnhKM3JhNHkwcFRUTGlkVWd3QWdBIiwiaWQiOiJmY18xIn0%3D"
+    },
+    {
+      "question":
+      "What tea has the most health benefits?",
+      "snippet":
+      "When it comes to tea, green tea gets the gold. “Green tea is the champ when it comes to offering health benefits,” says Czerwony. “It's the Swiss Army knife of teas.",
+      "title":
+      "green tea",
+      "date":
+      "Aug 12, 2021",
+      "link":
+      "https://health.clevelandclinic.org/teas-for-health#:~:text=When%20it%20comes%20to%20tea,Swiss%20Army%20knife%20of%20teas.",
+      "displayed_link":
+      "https://health.clevelandclinic.org › teas-for-health",
+      "source_logo":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/d58e173386a4d39a955fa273b5b9889783ec252a4aab63c07f4daa3e31332704.png",
+      "next_page_token":
+      "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCB0ZWEgaGFzIHRoZSBtb3N0IGhlYWx0aCBiZW5lZml0cz8iLCJsayI6IkdpRjBaV0VnZDJsMGFDQjBhR1VnYlc5emRDQm9aV0ZzZEdnZ1ltVnVaV1pwZEhNIiwiYnMiOiJjLU1LNUZMMUxGYklMRkhJU0UzTUtjbW9WQ2pKVjBncHlzekxWaWhKVFZSSUxVc3RxbFJJU2F5MGwtZ1NORktWVXM0a29CYW9sTXVIU3lrOEk3RkVJYkVvVmFFa0kxVWhOekV6VHlFcE5TODFMYk9rV0NFX0RhVGFYbUtsajVHeWxHSTVJWVZjQVZ4cVlOTkFWbVFrRmtNVTVoZkRIQUZYYnk5eE53SmtJa2hkZVNaUUFwZENyaGd1TFJUM0lkc0k5azVtWHJwQ1JuNEp4SjNyYTR5MHBUVExpZFVnd0FnQSIsImlkIjoiZmNfMSJ9",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCB0ZWEgaGFzIHRoZSBtb3N0IGhlYWx0aCBiZW5lZml0cz8iLCJsayI6IkdpRjBaV0VnZDJsMGFDQjBhR1VnYlc5emRDQm9aV0ZzZEdnZ1ltVnVaV1pwZEhNIiwiYnMiOiJjLU1LNUZMMUxGYklMRkhJU0UzTUtjbW9WQ2pKVjBncHlzekxWaWhKVFZSSUxVc3RxbFJJU2F5MGwtZ1NORktWVXM0a29CYW9sTXVIU3lrOEk3RkVJYkVvVmFFa0kxVWhOekV6VHlFcE5TODFMYk9rV0NFX0RhVGFYbUtsajVHeWxHSTVJWVZjQVZ4cVlOTkFWbVFrRmtNVTVoZkRIQUZYYnk5eE53SmtJa2hkZVNaUUFwZENyaGd1TFJUM0lkc0k5azVtWHJwQ1JuNEp4SjNyYTR5MHBUVExpZFVnd0FnQSIsImlkIjoiZmNfMSJ9"
+    },
+    {
+      "question":
+      "What are the benefits of drinking hot tea?",
+      "title":
+      "Health Benefits of Drinking Hot Tea",
+      "date":
+      "Mar 3, 2022",
+      "link":
+      "https://www.knoxvillebrew.com/03/the-benefits-of-drinking-hot-tea/",
+      "list":
+      [
+        "Tea helps prevent diseases: ... ",
+        "Hot tea might prevent glaucoma: ... ",
+        "Hot tea can enhance your mood: ... ",
+        "Hot tea can help regulate your body temperature: ... ",
+        "Hot tea can improve your brain health: ... ",
+        "Hot tea can prevent tooth decay: ... ",
+        "Hot tea can improve digestion: ... ",
+        "Hot tea strengthens the immune system:"
+      ],
+      "displayed_link":
+      "https://www.knoxvillebrew.com › the-benefits-of-drinkin...",
+      "thumbnail":
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPfFidwiianj6P7rgahfQN6Ci5uHwEqh-h61NqkK5GZg&s",
+      "source_logo":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/d58e173386a4d39a955fa273b5b98897756af5608e2572c68501308ccafa0281.png",
+      "next_page_token":
+      "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIGJlbmVmaXRzIG9mIGRyaW5raW5nIGhvdCB0ZWE/IiwibGsiOiJHaWwzYUdGMElHRnlaU0IwYUdVZ1ltVnVaV1pwZEhNZ2IyWWdaSEpwYm10cGJtY2dhRzkwSUhSbFlRIiwiYnMiOiJjLU1LNUZMMUxGYklMRkhJU0UzTUtjbW9WQ2pKVjBncHlzekxWaWhKVFZSSUxVc3RxbFJJU2F5MGwtZ1NORktWVXM0a29CYW9sTXVIU3lrOEk3RkVJYkVvVmFFa0kxVWhOekV6VHlFcE5TODFMYk9rV0NFX0RhVGFYbUtsajVHeWxHSTVJWVZjQVZ4cVlOTkFWbVFrRmtNVTVoZkRIQUZYYnk5eE53SmtJa2hkZVNaUUFwZENyaGd1TFJUM0lkc0k5azVtWHJwQ1JuNEp4SjNyYTR5MHBUVExpZFVnd0FnQSIsImlkIjoiZmNfMSJ9",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIGJlbmVmaXRzIG9mIGRyaW5raW5nIGhvdCB0ZWE%2FIiwibGsiOiJHaWwzYUdGMElHRnlaU0IwYUdVZ1ltVnVaV1pwZEhNZ2IyWWdaSEpwYm10cGJtY2dhRzkwSUhSbFlRIiwiYnMiOiJjLU1LNUZMMUxGYklMRkhJU0UzTUtjbW9WQ2pKVjBncHlzekxWaWhKVFZSSUxVc3RxbFJJU2F5MGwtZ1NORktWVXM0a29CYW9sTXVIU3lrOEk3RkVJYkVvVmFFa0kxVWhOekV6VHlFcE5TODFMYk9rV0NFX0RhVGFYbUtsajVHeWxHSTVJWVZjQVZ4cVlOTkFWbVFrRmtNVTVoZkRIQUZYYnk5eE53SmtJa2hkZVNaUUFwZENyaGd1TFJUM0lkc0k5azVtWHJwQ1JuNEp4SjNyYTR5MHBUVExpZFVnd0FnQSIsImlkIjoiZmNfMSJ9"
+    }
+  ],
+  "answer_box":
+  {
+    "type":
+    "organic_result",
+    "title":
+    "What Happens to Your Body When You Drink Tea Every Day",
+    "link":
+    "https://www.eatingwell.com/article/8044312/is-tea-good-for-you/",
+    "displayed_link":
+    "https://www.eatingwell.com › ... › Best Healthy Foods",
+    "date":
+    "Oct 30, 2023",
+    "snippet":
+    "Focusing on green, black, oolong or white tea, research shows that there are some unique health benefits for regular tea drinkers.",
+    "snippet_highlighted_words":
+    [
+      "Focusing on green, black, oolong or white tea, research shows that there are some unique health benefits for regular tea drinkers."
+    ],
+    "list":
+    [
+      "You May Have Better Blood Pressure.",
+      "You May Have a Reduced Risk of Certain Cancers.",
+      "You May Have Better Attention.",
+      "You May Have a Supported Immune System.",
+      "You May Have a Longer Life."
+    ],
+    "favicon":
+    "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/01b7bed49b8f6522d519f71dc8374a43a33587893895c1a8.png",
+    "source":
+    "EatingWell",
+    "images":
+    [
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/01b7bed49b8f6522d31967348f48b91ac17bee5a9d6367c5.jpeg",
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/01b7bed49b8f6522d31967348f48b91a71753b5cad8b5af4.jpeg",
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/01b7bed49b8f6522d31967348f48b91aa8a6758960f8b624.jpeg"
+    ]
+  },
+  "organic_results":
+  [
+    {
+      "position":
+      1,
+      "title":
+      "The Hidden Health Benefits of Tea",
+      "link":
+      "https://www.pennmedicine.org/updates/blogs/health-and-wellness/2019/december/health-benefits-of-tea",
+      "redirect_link":
+      "https://www.google.com/url?sa=t&url=https://www.pennmedicine.org/updates/blogs/health-and-wellness/2019/december/health-benefits-of-tea&usg=AOvVaw1zg-NOHvzyVEjzCFVlY8I4",
+      "displayed_link":
+      "https://www.pennmedicine.org › blogs › december › hea...",
+      "favicon":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50dbaa6d2b27909abdd932f92067a5e1e3e.png",
+      "date":
+      "Mar 4, 2022",
+      "snippet":
+      "Green tea is exceptionally high in flavonoids that can help boost your heart health by lowering bad cholesterol and reducing blood clotting.",
+      "snippet_highlighted_words":
+      [
+        "tea"
+      ],
+      "source":
+      "Penn Medicine"
+    },
+    {
+      "position":
+      2,
+      "title":
+      "Tea and Health: Studies in Humans - PMC",
+      "link":
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4055352/",
+      "redirect_link":
+      "https://www.google.com/url?sa=t&url=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4055352/&usg=AOvVaw2fiXPKwxlfHn6pB1-YExpj",
+      "displayed_link":
+      "https://www.ncbi.nlm.nih.gov › articles › PMC4055352",
+      "favicon":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50d14e049753a2598c61d64b5855b0f27c1.png",
+      "author":
+      "by N Khan",
+      "cited_by":
+      "Cited by 570",
+      "extracted_cited_by":
+      570,
+      "date":
+      "2013",
+      "snippet":
+      "Consumption of tea is increasingly being shown to be associated with enhanced cardiovascular and metabolic health. Green tea caused an increase in the activity ...",
+      "snippet_highlighted_words":
+      [
+        "tea",
+        "tea"
+      ],
+      "source":
+      "National Institutes of Health (NIH) (.gov)"
+    },
+    {
+      "position":
+      3,
+      "title":
+      "The Health Benefits of Tea",
+      "link":
+      "https://www.eatright.org/health/wellness/healthful-habits/the-health-benefits-of-tea",
+      "redirect_link":
+      "https://www.google.com/url?sa=t&url=https://www.eatright.org/health/wellness/healthful-habits/the-health-benefits-of-tea&usg=AOvVaw1q_DDtmB--Az8pyq_RW0uT",
+      "displayed_link":
+      "https://www.eatright.org › wellness › healthful-habits",
+      "favicon":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50d7db4724d0d6cd8bd09ce0646c8cc58d6.png",
+      "date":
+      "Nov 2, 2022",
+      "snippet":
+      "Both caffeinated and herbal teas may provide very small amounts of minerals such as potassium, phosphorous, magnesium, sodium, copper and zinc.",
+      "snippet_highlighted_words":
+      [
+        "teas"
+      ],
+      "source":
+      "Academy of Nutrition and Dietetics: eatright.org"
+    },
+    {
+      "position":
+      4,
+      "title":
+      "Are There Health Benefits to Drinking Tea?",
+      "link":
+      "https://www.webmd.com/diet/tea-health-benefits",
+      "redirect_link":
+      "https://www.google.com/url?sa=t&url=https://www.webmd.com/diet/tea-health-benefits&usg=AOvVaw0gKFQXsLwPucGL0ZBdCUp9",
+      "displayed_link":
+      "https://www.webmd.com › ... › Reference",
+      "favicon":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50dae039a17f80509926ede0c0e40a3791a.png",
+      "snippet":
+      "One study found that they help alleviate hypercholesterolemia (high cholesterol) when consumed in your diet.",
+      "source":
+      "WebMD"
+    },
+    {
+      "position":
+      5,
+      "title":
+      "Tea | The Nutrition Source | Harvard T.H. Chan School of ...",
+      "link":
+      "https://www.hsph.harvard.edu/nutritionsource/food-features/tea/",
+      "redirect_link":
+      "https://www.google.com/url?sa=t&url=https://www.hsph.harvard.edu/nutritionsource/food-features/tea/&usg=AOvVaw3V-oPhiMQIoD6WocmCtwsj",
+      "displayed_link":
+      "https://www.hsph.harvard.edu › ... › Food Features",
+      "favicon":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50d94a48fc358471572429ff9a605426c98.png",
+      "snippet":
+      "Observational research has found that tea consumption of 2-3 cups daily is associated with a reduced risk of premature death, heart disease, stroke, and type 2 ...",
+      "snippet_highlighted_words":
+      [
+        "tea"
+      ],
+      "source":
+      "Harvard T.H. Chan School of Public Health"
+    },
+    {
+      "position":
+      6,
+      "title":
+      "Top 10 health benefits of tea",
+      "link":
+      "https://www.bbcgoodfood.com/howto/guide/top-10-health-benefits-of-tea",
+      "redirect_link":
+      "https://www.google.com/url?sa=t&url=https://www.bbcgoodfood.com/howto/guide/top-10-health-benefits-of-tea&usg=AOvVaw0JO81b9u3Rv3haOjWPvJnN",
+      "displayed_link":
+      "https://www.bbcgoodfood.com › How to › Guide",
+      "favicon":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50de6c74505a7502a207d798fb41d0a32ab.png",
+      "date":
+      "Aug 25, 2023",
+      "snippet":
+      "Tea makes a useful option if you are looking for a flavourful, low-calorie, unsweetened hot drink with less caffeine than coffee.",
+      "snippet_highlighted_words":
+      [
+        "Tea"
+      ],
+      "source":
+      "Good Food"
+    },
+    {
+      "position":
+      7,
+      "title":
+      "6 health benefits of drinking black tea",
+      "link":
+      "https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea",
+      "redirect_link":
+      "https://www.google.com/url?sa=t&url=https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea&usg=AOvVaw3cC_thSyhWGqsUQjhJZGrR",
+      "displayed_link":
+      "https://www.uclahealth.org › news › 6-health-benefits-o...",
+      "favicon":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50d21ccc7f486b343be5622bcb78106f7c9.png",
+      "date":
+      "Nov 14, 2022",
+      "snippet":
+      "Black tea packs a punch when it comes to heart health. Theaflavins help to lower blood cholesterol. And flavonoids — the same antioxidants found ...",
+      "snippet_highlighted_words":
+      [
+        "tea"
+      ],
+      "sitelinks":
+      {
+        "inline":
+        [
+          {
+            "title":
+            "What Makes Black Tea Unique?",
+            "link":
+            "https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea#:~:text=What%20makes%20black%20tea%20unique%3F"
+          },
+          {
+            "title":
+            "Promotes Heart Health",
+            "link":
+            "https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea#:~:text=Promotes%20heart%20health"
+          },
+          {
+            "title":
+            "How Much Black Tea Is Too...",
+            "link":
+            "https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea#:~:text=How%20much%20black%20tea%20is%20too%20much%3F"
+          }
+        ]
+      },
+      "source":
+      "UCLA Health"
+    },
+    {
+      "position":
+      8,
+      "title":
+      "8 Surprising Health Benefits of Tea",
+      "link":
+      "https://www.aarp.org/health/healthy-living/info-2022/benefits-of-tea.html",
+      "redirect_link":
+      "https://www.google.com/url?sa=t&url=https://www.aarp.org/health/healthy-living/info-2022/benefits-of-tea.html&usg=AOvVaw1wS9EdWAk70k2on8CEmapt",
+      "displayed_link":
+      "https://www.aarp.org › healthy-living › info-2022 › be...",
+      "favicon":
+      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50da674e75784aaeb080927837f30e52692.png",
+      "date":
+      "Oct 18, 2022",
+      "snippet":
+      "Teas contain flavonoids, which are antioxidants that can prevent cell damage, reduce inflammation, lower your risk of heart disease, ...",
+      "snippet_highlighted_words":
+      [
+        "Teas"
+      ],
+      "source":
+      "AARP"
+    }
+  ],
+  "top_stories_link":
+  "https://www.google.com/search?q=benefits+of+tea&sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&udm=18&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ8poLegQISxAC",
+  "top_stories_serpapi_link":
+  "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea",
+  "related_searches":
+  [
+    {
+      "block_position":
+      1,
+      "query":
+      "benefits of tea with milk",
+      "link":
+      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+tea+with+milk&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhYEAE",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+tea+with+milk"
+    },
+    {
+      "block_position":
+      1,
+      "query":
+      "benefits of drinking tea everyday",
+      "link":
+      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+drinking+tea+everyday&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhZEAE",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+drinking+tea+everyday"
+    },
+    {
+      "block_position":
+      1,
+      "query":
+      "top 10 health benefits of tea",
+      "link":
+      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Top+10+health+benefits+of+tea&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhXEAE",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Top+10+health+benefits+of+tea"
+    },
+    {
+      "block_position":
+      1,
+      "query":
+      "benefits of black tea",
+      "link":
+      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+black+tea&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhWEAE",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+black+tea"
+    },
+    {
+      "block_position":
+      1,
+      "query":
+      "benefits of drinking tea at night",
+      "link":
+      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+drinking+tea+at+night&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhVEAE",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+drinking+tea+at+night"
+    },
+    {
+      "block_position":
+      1,
+      "query":
+      "benefits of drinking tea in the morning",
+      "link":
+      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+drinking+tea+in+the+morning&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhUEAE",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+drinking+tea+in+the+morning"
+    },
+    {
+      "block_position":
+      1,
+      "query":
+      "side effects of tea",
+      "link":
+      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Side+effects+of+tea&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhTEAE",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Side+effects+of+tea"
+    },
+    {
+      "block_position":
+      1,
+      "query":
+      "benefits of tea for skin",
+      "link":
+      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+tea+for+skin&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhREAE",
+      "serpapi_link":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+tea+for+skin"
+    }
+  ],
+  "discussions_and_forums":
+  [
+    {
+      "title":
+      "I love tea and I know it has many benefits, but how ... - Quora",
+      "link":
+      "https://www.quora.com/I-love-tea-and-I-know-it-has-many-benefits-but-how-much-tea-would-one-have-to-drink-daily-to-optimally-benefit-from-drinking-it",
+      "date":
+    ,
+      "source":
+      "Quora  ·  "
+    },
+    {
+      "title":
+      "What benefits can drinking tea have for the human body?",
+      "link":
+      "https://www.quora.com/What-benefits-can-drinking-tea-have-for-the-human-body",
+      "date":
+    ,
+      "source":
+      "Quora  ·  "
+    },
+    {
+      "title":
+      "Do you think green/black teas have any actual health benefits?",
+      "link":
+      "https://www.reddit.com/r/nutrition/comments/18of654/do_you_think_greenblack_teas_have_any_actual/",
+      "date":
+    ,
+      "source":
+      "Reddit  ·  "
+    }
+  ],
+  "pagination":
+  {
+    "current":
+    1,
+    "next":
+    "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=10&sourceid=chrome&ie=UTF-8",
+    "other_pages":
+    {
+      "2":
+      "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=10&sourceid=chrome&ie=UTF-8",
+      "3":
+      "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=20&sourceid=chrome&ie=UTF-8",
+      "4":
+      "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=30&sourceid=chrome&ie=UTF-8",
+      "5":
+      "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=40&sourceid=chrome&ie=UTF-8"
+    }
+  },
+  "serpapi_pagination":
+  {
+    "current":
+    1,
+    "next_link":
+    "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=10",
+    "next":
+    "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=10",
+    "other_pages":
+    {
+      "2":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=10",
+      "3":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=20",
+      "4":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=30",
+      "5":
+      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=40"
+    }
+  }
+}
