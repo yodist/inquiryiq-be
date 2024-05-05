@@ -1,5 +1,7 @@
 package com.yodist.inquiryiqbe.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.hw.serpapi.GoogleSearch;
 import com.yodist.inquiryiqbe.util.ResponseBuilder;
@@ -30,10 +32,12 @@ public class RelatedQuestionController {
     @Autowired
     RestTemplate restTemplate;
 
+    @Autowired
+    private ObjectMapper objectMapper;
+
     @GetMapping
     public ResponseEntity<Object> getRelatedQuestions() {
         final Map<String, Object> responseBody = ResponseBuilder.generateDefaultResponseBody();
-
         try {
             log.info("in method getRelatedQuestions");
 
@@ -61,13 +65,13 @@ public class RelatedQuestionController {
             } else {
 
             }
+            responseBody.put("message", "everything is alright");
+            log.debug(objectMapper.writeValueAsString(responseBody));
         } catch (Exception ex) {
             log.error("error when trying to get related question data: {}", ex.getMessage());
             responseBody.put("errorMessage", "something is wrong!");
             return ResponseEntity.internalServerError().body(responseBody);
         }
-
-        responseBody.put("message", "everything is alright");
         return ResponseEntity.ok(responseBody);
     }
 }
