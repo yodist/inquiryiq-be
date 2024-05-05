@@ -2,6 +2,7 @@ package com.yodist.inquiryiqbe.controller;
 
 import com.google.gson.JsonObject;
 import com.hw.serpapi.GoogleSearch;
+import com.yodist.inquiryiqbe.util.ResponseBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,33 +32,42 @@ public class RelatedQuestionController {
 
     @GetMapping
     public ResponseEntity<Object> getRelatedQuestions() {
-        log.info("in method getRelatedQuestions");
-        Map<String, String> parameter = new HashMap<>();
-        log.debug("serpapi.key: {}", serpapiKey);
+        final Map<String, Object> responseBody = ResponseBuilder.generateDefaultResponseBody();
 
-        parameter.put("q", "Benefits of Tea");
-        parameter.put("location", "Austin, Texas, United States");
-        parameter.put("google_domain", "google.com");
-        parameter.put("hl", "en");
-        parameter.put("gl", "us");
-        parameter.put("api_key", serpapiKey);
+        try {
+            log.info("in method getRelatedQuestions");
 
+            Map<String, String> parameter = new HashMap<>();
+            log.debug("serpapi.key: {}", serpapiKey);
 
-        if ("production".equals(serpapiEnv)) {
-            // Create search
-            GoogleSearch search = new GoogleSearch(parameter);
+            parameter.put("q", "Benefits of Tea");
+            parameter.put("location", "Austin, Texas, United States");
+            parameter.put("google_domain", "google.com");
+            parameter.put("hl", "en");
+            parameter.put("gl", "us");
+            parameter.put("api_key", serpapiKey);
 
-            JsonObject result = search.getJson();
+            if ("production".equals(serpapiEnv)) {
+                // Create search
+                GoogleSearch search = new GoogleSearch(parameter);
 
-            String searchResult = result.getAsJsonArray("organic_results")
-                    .get(0)
-                    .getAsJsonObject()
-                    .get("snippet")
-                    .getAsString();
+                JsonObject result = search.getJson();
 
+//                String searchResult = result.getAsJsonArray("organic_results")
+//                        .get(0)
+//                        .getAsJsonObject()
+//                        .get("snippet")
+//                        .getAsString();
+            } else {
+
+            }
+        } catch (Exception ex) {
+            log.error("error when trying to get related question data: {}", ex.getMessage());
+            responseBody.put("errorMessage", "something is wrong!");
+            return ResponseEntity.internalServerError().body(responseBody);
         }
 
-
-        return ResponseEntity.ok(new Object());
+        responseBody.put("message", "everything is alright");
+        return ResponseEntity.ok(responseBody);
     }
 }
