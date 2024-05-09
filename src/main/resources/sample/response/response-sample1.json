@@ -1,556 +1,347 @@
 {
-  "search_metadata":
-  {
-    "id":
-    "6636f33810d74417a04ccf40",
-    "status":
-    "Success",
-    "json_endpoint":
-    "https://serpapi.com/searches/d6ad4d57b172fde5/6636f33810d74417a04ccf40.json",
-    "created_at":
-    "2024-05-05 02:47:20 UTC",
-    "processed_at":
-    "2024-05-05 02:47:20 UTC",
-    "google_url":
-    "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&uule=w+CAIQICIaQXVzdGluLFRleGFzLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
-    "raw_html_file":
-    "https://serpapi.com/searches/d6ad4d57b172fde5/6636f33810d74417a04ccf40.html",
-    "total_time_taken":
-    1.78
+  "search_metadata": {
+    "id": "663c4d041071f4359235f50a",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/f9e998186f753824/663c4d041071f4359235f50a.json",
+    "created_at": "2024-05-09 04:11:48 UTC",
+    "processed_at": "2024-05-09 04:11:48 UTC",
+    "google_url": "https://www.google.com/search?q=benefits+of+coffee&oq=benefits+of+coffee&uule=w+CAIQICIaQXVzdGluLFRleGFzLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/f9e998186f753824/663c4d041071f4359235f50a.html",
+    "total_time_taken": 2.59
   },
-  "search_parameters":
-  {
-    "engine":
-    "google",
-    "q":
-    "benefits of tea",
-    "location_requested":
-    "Austin, Texas, United States",
-    "location_used":
-    "Austin,Texas,United States",
-    "google_domain":
-    "google.com",
-    "hl":
-    "en",
-    "gl":
-    "us",
-    "device":
-    "desktop"
+  "search_parameters": {
+    "engine": "google",
+    "q": "benefits of coffee",
+    "location_requested": "Austin, Texas, United States",
+    "location_used": "Austin,Texas,United States",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
   },
-  "search_information":
-  {
-    "query_displayed":
-    "benefits of tea",
-    "total_results":
-    1350000000,
-    "time_taken_displayed":
-    0.36,
-    "organic_results_state":
-    "Results for exact spelling"
+  "search_information": {
+    "query_displayed": "benefits of coffee",
+    "total_results": 1980000000,
+    "time_taken_displayed": 0.37,
+    "organic_results_state": "Results for exact spelling"
   },
-  "related_questions":
-  [
+  "related_questions": [
     {
-      "question":
-      "Is it healthy to drink tea every day?",
-      "snippet":
-      "To reap the health benefits of tea, you should be consistent and drink your tea daily. On top of this, depending on your lifestyle and overall health, or if you are trying to lose weight or manage a chronic condition, you may want to drink more than one cup per day.",
-      "title":
-      "How Much Tea Should | Drink A Day? - Art of Tea",
-      "link":
-      "https://www.artoftea.com/blogs/health-lifestyle/how-much-tea-should-i-drink-a-day#:~:text=To%20reap%20the%20health%20benefits,than%20one%20cup%20per%20day.",
-      "displayed_link":
-      "https://www.artoftea.com › blogs › health-lifestyle › how...",
-      "source_logo":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/d58e173386a4d39a955fa273b5b98897123105123fbe09ae91823ef6dff9741e.png",
-      "next_page_token":
-      "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiSXMgaXQgaGVhbHRoeSB0byBkcmluayB0ZWEgZXZlcnkgZGF5PyIsImxrIjoiR2lOcGN5QnBkQ0JvWldGc2RHaDVJSFJ2SUdSeWFXNXJJSFJsWVNCbGRtVnllV1JoZVEiLCJicyI6ImMtTUs1RkwxTEZiSUxGSElTRTNNS2Ntb1ZDakpWMGdweXN6TFZpaEpUVlJJTFVzdHFsUklTYXkwbC1nU05GS1ZVczRrb0Jhb2xNdUhTeWs4STdGRUliRW9WYUVrSTFVaE56RXpUeUVwTlM4MUxiT2tXQ0VfRGFUYVhtS2xqNUd5bEdJNUlZVmNBVnhxWU5OQVZtUWtGa01VNWhmREhBRlhieTl4TndKa0lraGRlU1pRQXBkQ3JoZ3VMUlQzSWRzSTlrNW1YcnBDUm40SnhKM3JhNHkwcFRUTGlkVWd3QWdBIiwiaWQiOiJmY18xIn0=",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiSXMgaXQgaGVhbHRoeSB0byBkcmluayB0ZWEgZXZlcnkgZGF5PyIsImxrIjoiR2lOcGN5QnBkQ0JvWldGc2RHaDVJSFJ2SUdSeWFXNXJJSFJsWVNCbGRtVnllV1JoZVEiLCJicyI6ImMtTUs1RkwxTEZiSUxGSElTRTNNS2Ntb1ZDakpWMGdweXN6TFZpaEpUVlJJTFVzdHFsUklTYXkwbC1nU05GS1ZVczRrb0Jhb2xNdUhTeWs4STdGRUliRW9WYUVrSTFVaE56RXpUeUVwTlM4MUxiT2tXQ0VfRGFUYVhtS2xqNUd5bEdJNUlZVmNBVnhxWU5OQVZtUWtGa01VNWhmREhBRlhieTl4TndKa0lraGRlU1pRQXBkQ3JoZ3VMUlQzSWRzSTlrNW1YcnBDUm40SnhKM3JhNHkwcFRUTGlkVWd3QWdBIiwiaWQiOiJmY18xIn0%3D"
-    },
-    {
-      "question":
-      "What are the main benefits of tea?",
-      "snippet":
-      "All varieties of tea (black, white, green and oolong) are a rich source of protective plant compounds, called polyphenols. Regularly consuming these polyphenols may help protect the cells of the body from damage and as a result reduce the risk of chronic diseases like heart disease, diabetes and cancer.",
-      "title":
-      "Top 10 health benefits of tea - BBC Good Food",
-      "date":
-      "Aug 25, 2023",
-      "link":
-      "https://www.bbcgoodfood.com/howto/guide/top-10-health-benefits-of-tea#:~:text=All%20varieties%20of%20tea%20(black,heart%20disease%2C%20diabetes%20and%20cancer.",
-      "displayed_link":
-      "https://www.bbcgoodfood.com › How to › Guide",
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbFte5TcYGgae54-mwiUsO57yI-_shGsrD3mE-h9icg&s",
-      "next_page_token":
-      "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIG1haW4gYmVuZWZpdHMgb2YgdGVhPyIsImxrIjoiR2lGM2FHRjBJR0Z5WlNCMGFHVWdiV0ZwYmlCaVpXNWxabWwwY3lCdlppQjBaV0UiLCJicyI6ImMtTUs1RkwxTEZiSUxGSElTRTNNS2Ntb1ZDakpWMGdweXN6TFZpaEpUVlJJTFVzdHFsUklTYXkwbC1nU05GS1ZVczRrb0Jhb2xNdUhTeWs4STdGRUliRW9WYUVrSTFVaE56RXpUeUVwTlM4MUxiT2tXQ0VfRGFUYVhtS2xqNUd5bEdJNUlZVmNBVnhxWU5OQVZtUWtGa01VNWhmREhBRlhieTl4TndKa0lraGRlU1pRQXBkQ3JoZ3VMUlQzSWRzSTlrNW1YcnBDUm40SnhKM3JhNHkwcFRUTGlkVWd3QWdBIiwiaWQiOiJmY18xIn0=",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIG1haW4gYmVuZWZpdHMgb2YgdGVhPyIsImxrIjoiR2lGM2FHRjBJR0Z5WlNCMGFHVWdiV0ZwYmlCaVpXNWxabWwwY3lCdlppQjBaV0UiLCJicyI6ImMtTUs1RkwxTEZiSUxGSElTRTNNS2Ntb1ZDakpWMGdweXN6TFZpaEpUVlJJTFVzdHFsUklTYXkwbC1nU05GS1ZVczRrb0Jhb2xNdUhTeWs4STdGRUliRW9WYUVrSTFVaE56RXpUeUVwTlM4MUxiT2tXQ0VfRGFUYVhtS2xqNUd5bEdJNUlZVmNBVnhxWU5OQVZtUWtGa01VNWhmREhBRlhieTl4TndKa0lraGRlU1pRQXBkQ3JoZ3VMUlQzSWRzSTlrNW1YcnBDUm40SnhKM3JhNHkwcFRUTGlkVWd3QWdBIiwiaWQiOiJmY18xIn0%3D"
-    },
-    {
-      "question":
-      "What tea has the most health benefits?",
-      "snippet":
-      "When it comes to tea, green tea gets the gold. “Green tea is the champ when it comes to offering health benefits,” says Czerwony. “It's the Swiss Army knife of teas.",
-      "title":
-      "green tea",
-      "date":
-      "Aug 12, 2021",
-      "link":
-      "https://health.clevelandclinic.org/teas-for-health#:~:text=When%20it%20comes%20to%20tea,Swiss%20Army%20knife%20of%20teas.",
-      "displayed_link":
-      "https://health.clevelandclinic.org › teas-for-health",
-      "source_logo":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/d58e173386a4d39a955fa273b5b9889783ec252a4aab63c07f4daa3e31332704.png",
-      "next_page_token":
-      "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCB0ZWEgaGFzIHRoZSBtb3N0IGhlYWx0aCBiZW5lZml0cz8iLCJsayI6IkdpRjBaV0VnZDJsMGFDQjBhR1VnYlc5emRDQm9aV0ZzZEdnZ1ltVnVaV1pwZEhNIiwiYnMiOiJjLU1LNUZMMUxGYklMRkhJU0UzTUtjbW9WQ2pKVjBncHlzekxWaWhKVFZSSUxVc3RxbFJJU2F5MGwtZ1NORktWVXM0a29CYW9sTXVIU3lrOEk3RkVJYkVvVmFFa0kxVWhOekV6VHlFcE5TODFMYk9rV0NFX0RhVGFYbUtsajVHeWxHSTVJWVZjQVZ4cVlOTkFWbVFrRmtNVTVoZkRIQUZYYnk5eE53SmtJa2hkZVNaUUFwZENyaGd1TFJUM0lkc0k5azVtWHJwQ1JuNEp4SjNyYTR5MHBUVExpZFVnd0FnQSIsImlkIjoiZmNfMSJ9",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCB0ZWEgaGFzIHRoZSBtb3N0IGhlYWx0aCBiZW5lZml0cz8iLCJsayI6IkdpRjBaV0VnZDJsMGFDQjBhR1VnYlc5emRDQm9aV0ZzZEdnZ1ltVnVaV1pwZEhNIiwiYnMiOiJjLU1LNUZMMUxGYklMRkhJU0UzTUtjbW9WQ2pKVjBncHlzekxWaWhKVFZSSUxVc3RxbFJJU2F5MGwtZ1NORktWVXM0a29CYW9sTXVIU3lrOEk3RkVJYkVvVmFFa0kxVWhOekV6VHlFcE5TODFMYk9rV0NFX0RhVGFYbUtsajVHeWxHSTVJWVZjQVZ4cVlOTkFWbVFrRmtNVTVoZkRIQUZYYnk5eE53SmtJa2hkZVNaUUFwZENyaGd1TFJUM0lkc0k5azVtWHJwQ1JuNEp4SjNyYTR5MHBUVExpZFVnd0FnQSIsImlkIjoiZmNfMSJ9"
-    },
-    {
-      "question":
-      "What are the benefits of drinking hot tea?",
-      "title":
-      "Health Benefits of Drinking Hot Tea",
-      "date":
-      "Mar 3, 2022",
-      "link":
-      "https://www.knoxvillebrew.com/03/the-benefits-of-drinking-hot-tea/",
-      "list":
-      [
-        "Tea helps prevent diseases: ... ",
-        "Hot tea might prevent glaucoma: ... ",
-        "Hot tea can enhance your mood: ... ",
-        "Hot tea can help regulate your body temperature: ... ",
-        "Hot tea can improve your brain health: ... ",
-        "Hot tea can prevent tooth decay: ... ",
-        "Hot tea can improve digestion: ... ",
-        "Hot tea strengthens the immune system:"
+      "question": "What are the main benefits of coffee?",
+      "title": "What health benefits does coffee offer?",
+      "link": "https://www.rush.edu/news/health-benefits-coffee",
+      "list": [
+        "Improve overall health. ... ",
+        "Protect against Type 2 diabetes. ... ",
+        "Control Parkinson's disease symptoms. ... ",
+        "Slow the progress of dementia. ... ",
+        "Safeguard the liver. ... ",
+        "Promote heart health. ... ",
+        "Reduce melanoma risk. ... ",
+        "Lower mortality risk."
       ],
-      "displayed_link":
-      "https://www.knoxvillebrew.com › the-benefits-of-drinkin...",
-      "thumbnail":
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPfFidwiianj6P7rgahfQN6Ci5uHwEqh-h61NqkK5GZg&s",
-      "source_logo":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/d58e173386a4d39a955fa273b5b98897756af5608e2572c68501308ccafa0281.png",
-      "next_page_token":
-      "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIGJlbmVmaXRzIG9mIGRyaW5raW5nIGhvdCB0ZWE/IiwibGsiOiJHaWwzYUdGMElHRnlaU0IwYUdVZ1ltVnVaV1pwZEhNZ2IyWWdaSEpwYm10cGJtY2dhRzkwSUhSbFlRIiwiYnMiOiJjLU1LNUZMMUxGYklMRkhJU0UzTUtjbW9WQ2pKVjBncHlzekxWaWhKVFZSSUxVc3RxbFJJU2F5MGwtZ1NORktWVXM0a29CYW9sTXVIU3lrOEk3RkVJYkVvVmFFa0kxVWhOekV6VHlFcE5TODFMYk9rV0NFX0RhVGFYbUtsajVHeWxHSTVJWVZjQVZ4cVlOTkFWbVFrRmtNVTVoZkRIQUZYYnk5eE53SmtJa2hkZVNaUUFwZENyaGd1TFJUM0lkc0k5azVtWHJwQ1JuNEp4SjNyYTR5MHBUVExpZFVnd0FnQSIsImlkIjoiZmNfMSJ9",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2QwZFlPRnB5VHpaVFkyVjFWWG81VTBOclpHNURka2wxT1VOU1RESjZlVzFoZWxSdlgxSnFUVjlQTUZneFkxYzJVSGw1Ym5OMWFteFJSWEJUUkhKdU1rMDFNMGxSRWhkUGRrMHlXbkF5U2tKaWRUWTFUMVZRTlY5NVp6UkJkeG9pUVVaWWNrVmpjbll5UTNWV1dFdDZSa0ZXWkhWV1gwOURaVkpCZEVVME9DMTRVUSIsImZjdiI6IjMiLCJlaSI6Ik92TTJacDJKQmJ1NjVPVVA1X3lnNEF3IiwicWMiOiJDZzlpWlc1bFptbDBjeUJ2WmlCMFpXRVFBSDBSaHo0XyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIGJlbmVmaXRzIG9mIGRyaW5raW5nIGhvdCB0ZWE%2FIiwibGsiOiJHaWwzYUdGMElHRnlaU0IwYUdVZ1ltVnVaV1pwZEhNZ2IyWWdaSEpwYm10cGJtY2dhRzkwSUhSbFlRIiwiYnMiOiJjLU1LNUZMMUxGYklMRkhJU0UzTUtjbW9WQ2pKVjBncHlzekxWaWhKVFZSSUxVc3RxbFJJU2F5MGwtZ1NORktWVXM0a29CYW9sTXVIU3lrOEk3RkVJYkVvVmFFa0kxVWhOekV6VHlFcE5TODFMYk9rV0NFX0RhVGFYbUtsajVHeWxHSTVJWVZjQVZ4cVlOTkFWbVFrRmtNVTVoZkRIQUZYYnk5eE53SmtJa2hkZVNaUUFwZENyaGd1TFJUM0lkc0k5azVtWHJwQ1JuNEp4SjNyYTR5MHBUVExpZFVnd0FnQSIsImlkIjoiZmNfMSJ9"
+      "displayed_link": "https://www.rush.edu › news › health-benefits-coffee",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UFUwaDNUalJFWkZOVWNqQm9TbUZaYWpCcFVVZGtSMTgwUmtGeFRHUmZlbkZsYUdSb1VIQlNhbU40YTNsdmIwcFpNVlJVY2pVMlRrbDFUMkpTY0dabWIybGxYM1U0RWhkQ2F6QTRXbkpJZFVoYU1sTjNZbXRRY1haRE1qSkJieG9pUVVaWWNrVmpjREZGVjJaWVl5MVZPR293Vm14VFJHUk9la1JLVjFGeldFb3dadyIsImZjdiI6IjMiLCJlaSI6IkJrMDhackh1SFoyU3dia1BxdkMyMkFvIiwicWMiOiJDaEppWlc1bFptbDBjeUJ2WmlCamIyWm1aV1VRQUgydGd6b18iLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSBtYWluIGJlbmVmaXRzIG9mIGNvZmZlZT8iLCJsayI6IkdpUjNhR0YwSUdGeVpTQjBhR1VnYldGcGJpQmlaVzVsWm1sMGN5QnZaaUJqYjJabVpXVSIsImJzIjoiYy1NSzRsSU56MGdzVVVnc1NsVW95VWhWeUUzTXpGTklTczFMVGNzc0tWYklUMU5Jems5TFMwMjFsM2pIYmFRbXBWSk9oRnF1UUM1VnoyS0Z6QktGOVB6OEZJV1NmSVdVb3N5OGJLaXNRbXBaYWxHbFFrcGlwYjNFSFFNalZTbmxUQUpxZ1VxNXZMZ1VnVVpDUmNGSzg0c1VraEpURk5LQWRFWnFZazVKaHIzRUpoNGpKU21GVEFMcXVFSzQxRkM4ak95RHBKekU1R3k0bnlmSUdxbExxWllUbzFpQUVRQSIsImlkIjoiZmNfMSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UFUwaDNUalJFWkZOVWNqQm9TbUZaYWpCcFVVZGtSMTgwUmtGeFRHUmZlbkZsYUdSb1VIQlNhbU40YTNsdmIwcFpNVlJVY2pVMlRrbDFUMkpTY0dabWIybGxYM1U0RWhkQ2F6QTRXbkpJZFVoYU1sTjNZbXRRY1haRE1qSkJieG9pUVVaWWNrVmpjREZGVjJaWVl5MVZPR293Vm14VFJHUk9la1JLVjFGeldFb3dadyIsImZjdiI6IjMiLCJlaSI6IkJrMDhackh1SFoyU3dia1BxdkMyMkFvIiwicWMiOiJDaEppWlc1bFptbDBjeUJ2WmlCamIyWm1aV1VRQUgydGd6b18iLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSBtYWluIGJlbmVmaXRzIG9mIGNvZmZlZT8iLCJsayI6IkdpUjNhR0YwSUdGeVpTQjBhR1VnYldGcGJpQmlaVzVsWm1sMGN5QnZaaUJqYjJabVpXVSIsImJzIjoiYy1NSzRsSU56MGdzVVVnc1NsVW95VWhWeUUzTXpGTklTczFMVGNzc0tWYklUMU5Jems5TFMwMjFsM2pIYmFRbXBWSk9oRnF1UUM1VnoyS0Z6QktGOVB6OEZJV1NmSVdVb3N5OGJLaXNRbXBaYWxHbFFrcGlwYjNFSFFNalZTbmxUQUpxZ1VxNXZMZ1VnVVpDUmNGSzg0c1VraEpURk5LQWRFWnFZazVKaHIzRUpoNGpKU21GVEFMcXVFSzQxRkM4ak95RHBKekU1R3k0bnlmSUdxbExxWllUbzFpQUVRQSIsImlkIjoiZmNfMSJ9"
+    },
+    {
+      "question": "Is it good to drink coffee every day?",
+      "snippet": "Hu said that moderate coffee intake—about 2–5 cups a day—is linked to a lower likelihood of type 2 diabetes, heart disease, liver and endometrial cancers, Parkinson's disease, and depression. It's even possible that people who drink coffee can reduce their risk of early death.",
+      "title": "Is coffee good or bad for your health? - HSPH.Harvard.edu",
+      "link": "https://www.hsph.harvard.edu/news/hsph-in-the-news/is-coffee-good-or-bad-for-your-health/#:~:text=Hu%20said%20that%20moderate%20coffee,their%20risk%20of%20early%20death.",
+      "displayed_link": "https://www.hsph.harvard.edu › news › hsph-in-the-news",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UFUwaDNUalJFWkZOVWNqQm9TbUZaYWpCcFVVZGtSMTgwUmtGeFRHUmZlbkZsYUdSb1VIQlNhbU40YTNsdmIwcFpNVlJVY2pVMlRrbDFUMkpTY0dabWIybGxYM1U0RWhkQ2F6QTRXbkpJZFVoYU1sTjNZbXRRY1haRE1qSkJieG9pUVVaWWNrVmpjREZGVjJaWVl5MVZPR293Vm14VFJHUk9la1JLVjFGeldFb3dadyIsImZjdiI6IjMiLCJlaSI6IkJrMDhackh1SFoyU3dia1BxdkMyMkFvIiwicWMiOiJDaEppWlc1bFptbDBjeUJ2WmlCamIyWm1aV1VRQUgydGd6b18iLCJxdWVzdGlvbiI6IklzIGl0IGdvb2QgdG8gZHJpbmsgY29mZmVlIGV2ZXJ5IGRheT8iLCJsayI6IkdpTnBjeUJwZENCbmIyOWtJSFJ2SUdSeWFXNXJJR052Wm1abFpTQmxkbVZ5ZVdSaGVRIiwiYnMiOiJjLU1LNGxJTnowZ3NVVWdzU2xVb3lVaFZ5RTNNekZOSVNzMUxUY3NzS1ZiSVQxTkl6azlMUzAyMWwzakhiYVFtcFZKT2hGcXVRQzVWejJLRnpCS0Y5UHo4RklXU2ZJV1Vvc3k4Yktpc1FtcFphbEdsUWtwaXBiM0VIUU1qVlNubFRBSnFnVXE1dkxnVWdVWkNSY0ZLODRzVWtoSlRGTktBZEVacVlrNUpocjNFSmg0akpTbUZUQUxxdUVLNDFGQzhqT3lEcEp6RTVHeTRueWZJR3FsTHFaWVRvMWlBRVFBIiwiaWQiOiJmY18xIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UFUwaDNUalJFWkZOVWNqQm9TbUZaYWpCcFVVZGtSMTgwUmtGeFRHUmZlbkZsYUdSb1VIQlNhbU40YTNsdmIwcFpNVlJVY2pVMlRrbDFUMkpTY0dabWIybGxYM1U0RWhkQ2F6QTRXbkpJZFVoYU1sTjNZbXRRY1haRE1qSkJieG9pUVVaWWNrVmpjREZGVjJaWVl5MVZPR293Vm14VFJHUk9la1JLVjFGeldFb3dadyIsImZjdiI6IjMiLCJlaSI6IkJrMDhackh1SFoyU3dia1BxdkMyMkFvIiwicWMiOiJDaEppWlc1bFptbDBjeUJ2WmlCamIyWm1aV1VRQUgydGd6b18iLCJxdWVzdGlvbiI6IklzIGl0IGdvb2QgdG8gZHJpbmsgY29mZmVlIGV2ZXJ5IGRheT8iLCJsayI6IkdpTnBjeUJwZENCbmIyOWtJSFJ2SUdSeWFXNXJJR052Wm1abFpTQmxkbVZ5ZVdSaGVRIiwiYnMiOiJjLU1LNGxJTnowZ3NVVWdzU2xVb3lVaFZ5RTNNekZOSVNzMUxUY3NzS1ZiSVQxTkl6azlMUzAyMWwzakhiYVFtcFZKT2hGcXVRQzVWejJLRnpCS0Y5UHo4RklXU2ZJV1Vvc3k4Yktpc1FtcFphbEdsUWtwaXBiM0VIUU1qVlNubFRBSnFnVXE1dkxnVWdVWkNSY0ZLODRzVWtoSlRGTktBZEVacVlrNUpocjNFSmg0akpTbUZUQUxxdUVLNDFGQzhqT3lEcEp6RTVHeTRueWZJR3FsTHFaWVRvMWlBRVFBIiwiaWQiOiJmY18xIn0%3D"
+    },
+    {
+      "question": "Is coffee good or bad for health?",
+      "snippet": "High intake of boiled, unfiltered coffee has been associated with mild increase in cholesterol levels. The bottom line? Your coffee habit is probably fine and may even have some benefits. But if you have side effects from coffee, such as heartburn, nervousness or insomnia, consider cutting back.",
+      "title": "Coffee and health: What does the research say? - Mayo Clinic",
+      "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coffee-and-health/faq-20058339#:~:text=High%20intake%20of%20boiled%2C%20unfiltered,or%20insomnia%2C%20consider%20cutting%20back.",
+      "displayed_link": "https://www.mayoclinic.org › faq-20058339",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UFUwaDNUalJFWkZOVWNqQm9TbUZaYWpCcFVVZGtSMTgwUmtGeFRHUmZlbkZsYUdSb1VIQlNhbU40YTNsdmIwcFpNVlJVY2pVMlRrbDFUMkpTY0dabWIybGxYM1U0RWhkQ2F6QTRXbkpJZFVoYU1sTjNZbXRRY1haRE1qSkJieG9pUVVaWWNrVmpjREZGVjJaWVl5MVZPR293Vm14VFJHUk9la1JLVjFGeldFb3dadyIsImZjdiI6IjMiLCJlaSI6IkJrMDhackh1SFoyU3dia1BxdkMyMkFvIiwicWMiOiJDaEppWlc1bFptbDBjeUJ2WmlCamIyWm1aV1VRQUgydGd6b18iLCJxdWVzdGlvbiI6IklzIGNvZmZlZSBnb29kIG9yIGJhZCBmb3IgaGVhbHRoPyIsImxrIjoiR2lCcGN5QmpiMlptWldVZ1oyOXZaQ0J2Y2lCaVlXUWdabTl5SUdobFlXeDBhQSIsImJzIjoiYy1NSzRsSU56MGdzVVVnc1NsVW95VWhWeUUzTXpGTklTczFMVGNzc0tWYklUMU5Jems5TFMwMjFsM2pIYmFRbXBWSk9oRnF1UUM1VnoyS0Z6QktGOVB6OEZJV1NmSVdVb3N5OGJLaXNRbXBaYWxHbFFrcGlwYjNFSFFNalZTbmxUQUpxZ1VxNXZMZ1VnVVpDUmNGSzg0c1VraEpURk5LQWRFWnFZazVKaHIzRUpoNGpKU21GVEFMcXVFSzQxRkM4ak95RHBKekU1R3k0bnlmSUdxbExxWllUbzFpQUVRQSIsImlkIjoiZmNfMSJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UFUwaDNUalJFWkZOVWNqQm9TbUZaYWpCcFVVZGtSMTgwUmtGeFRHUmZlbkZsYUdSb1VIQlNhbU40YTNsdmIwcFpNVlJVY2pVMlRrbDFUMkpTY0dabWIybGxYM1U0RWhkQ2F6QTRXbkpJZFVoYU1sTjNZbXRRY1haRE1qSkJieG9pUVVaWWNrVmpjREZGVjJaWVl5MVZPR293Vm14VFJHUk9la1JLVjFGeldFb3dadyIsImZjdiI6IjMiLCJlaSI6IkJrMDhackh1SFoyU3dia1BxdkMyMkFvIiwicWMiOiJDaEppWlc1bFptbDBjeUJ2WmlCamIyWm1aV1VRQUgydGd6b18iLCJxdWVzdGlvbiI6IklzIGNvZmZlZSBnb29kIG9yIGJhZCBmb3IgaGVhbHRoPyIsImxrIjoiR2lCcGN5QmpiMlptWldVZ1oyOXZaQ0J2Y2lCaVlXUWdabTl5SUdobFlXeDBhQSIsImJzIjoiYy1NSzRsSU56MGdzVVVnc1NsVW95VWhWeUUzTXpGTklTczFMVGNzc0tWYklUMU5Jems5TFMwMjFsM2pIYmFRbXBWSk9oRnF1UUM1VnoyS0Z6QktGOVB6OEZJV1NmSVdVb3N5OGJLaXNRbXBaYWxHbFFrcGlwYjNFSFFNalZTbmxUQUpxZ1VxNXZMZ1VnVVpDUmNGSzg0c1VraEpURk5LQWRFWnFZazVKaHIzRUpoNGpKU21GVEFMcXVFSzQxRkM4ak95RHBKekU1R3k0bnlmSUdxbExxWllUbzFpQUVRQSIsImlkIjoiZmNfMSJ9"
+    },
+    {
+      "question": "What are the benefits of black coffee?",
+      "title": "Health benefits of black coffee",
+      "date": "6 days ago",
+      "link": "https://pharmeasy.in/blog/10-health-benefits-of-black-coffee/",
+      "list": [
+        "1: May reduce weight: ... ",
+        "2: Help to Improve Physical Performance: ... ",
+        "3: May Decrease the Risk of Diabetes:",
+        "4: May Lower the Risk of Cardiovascular Disease: ... ",
+        "5: May Beneficial for Liver Health. ... ",
+        "6: Helps to Keep the Urinary System Clear: ... ",
+        "8: May Boost the Memory: ... ",
+        "9: Help to Reduce Stress:"
+      ],
+      "displayed_link": "https://pharmeasy.in › blog › 10-health-benefits-of-black...",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsbD3hJ3L11PUJYRjChRHe_FnbbrJHhqc9SuYz17ucXg&s",
+      "source_logo": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/61f28cb86a0e18ea35aba2b957763dd8c4b567c0965df4f0b88f95e115c25be9.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UFUwaDNUalJFWkZOVWNqQm9TbUZaYWpCcFVVZGtSMTgwUmtGeFRHUmZlbkZsYUdSb1VIQlNhbU40YTNsdmIwcFpNVlJVY2pVMlRrbDFUMkpTY0dabWIybGxYM1U0RWhkQ2F6QTRXbkpJZFVoYU1sTjNZbXRRY1haRE1qSkJieG9pUVVaWWNrVmpjREZGVjJaWVl5MVZPR293Vm14VFJHUk9la1JLVjFGeldFb3dadyIsImZjdiI6IjMiLCJlaSI6IkJrMDhackh1SFoyU3dia1BxdkMyMkFvIiwicWMiOiJDaEppWlc1bFptbDBjeUJ2WmlCamIyWm1aV1VRQUgydGd6b18iLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSBiZW5lZml0cyBvZiBibGFjayBjb2ZmZWU/IiwibGsiOiJHaVYzYUdGMElHRnlaU0IwYUdVZ1ltVnVaV1pwZEhNZ2IyWWdZbXhoWTJzZ1kyOW1abVZsIiwiYnMiOiJjLU1LNGxJTnowZ3NVVWdzU2xVb3lVaFZ5RTNNekZOSVNzMUxUY3NzS1ZiSVQxTkl6azlMUzAyMWwzakhiYVFtcFZKT2hGcXVRQzVWejJLRnpCS0Y5UHo4RklXU2ZJV1Vvc3k4Yktpc1FtcFphbEdsUWtwaXBiM0VIUU1qVlNubFRBSnFnVXE1dkxnVWdVWkNSY0ZLODRzVWtoSlRGTktBZEVacVlrNUpocjNFSmg0akpTbUZUQUxxdUVLNDFGQzhqT3lEcEp6RTVHeTRueWZJR3FsTHFaWVRvMWlBRVFBIiwiaWQiOiJmY18xIn0=",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UFUwaDNUalJFWkZOVWNqQm9TbUZaYWpCcFVVZGtSMTgwUmtGeFRHUmZlbkZsYUdSb1VIQlNhbU40YTNsdmIwcFpNVlJVY2pVMlRrbDFUMkpTY0dabWIybGxYM1U0RWhkQ2F6QTRXbkpJZFVoYU1sTjNZbXRRY1haRE1qSkJieG9pUVVaWWNrVmpjREZGVjJaWVl5MVZPR293Vm14VFJHUk9la1JLVjFGeldFb3dadyIsImZjdiI6IjMiLCJlaSI6IkJrMDhackh1SFoyU3dia1BxdkMyMkFvIiwicWMiOiJDaEppWlc1bFptbDBjeUJ2WmlCamIyWm1aV1VRQUgydGd6b18iLCJxdWVzdGlvbiI6IldoYXQgYXJlIHRoZSBiZW5lZml0cyBvZiBibGFjayBjb2ZmZWU%2FIiwibGsiOiJHaVYzYUdGMElHRnlaU0IwYUdVZ1ltVnVaV1pwZEhNZ2IyWWdZbXhoWTJzZ1kyOW1abVZsIiwiYnMiOiJjLU1LNGxJTnowZ3NVVWdzU2xVb3lVaFZ5RTNNekZOSVNzMUxUY3NzS1ZiSVQxTkl6azlMUzAyMWwzakhiYVFtcFZKT2hGcXVRQzVWejJLRnpCS0Y5UHo4RklXU2ZJV1Vvc3k4Yktpc1FtcFphbEdsUWtwaXBiM0VIUU1qVlNubFRBSnFnVXE1dkxnVWdVWkNSY0ZLODRzVWtoSlRGTktBZEVacVlrNUpocjNFSmg0akpTbUZUQUxxdUVLNDFGQzhqT3lEcEp6RTVHeTRueWZJR3FsTHFaWVRvMWlBRVFBIiwiaWQiOiJmY18xIn0%3D"
     }
   ],
-  "answer_box":
-  {
-    "type":
-    "organic_result",
-    "title":
-    "What Happens to Your Body When You Drink Tea Every Day",
-    "link":
-    "https://www.eatingwell.com/article/8044312/is-tea-good-for-you/",
-    "displayed_link":
-    "https://www.eatingwell.com › ... › Best Healthy Foods",
-    "date":
-    "Oct 30, 2023",
-    "snippet":
-    "Focusing on green, black, oolong or white tea, research shows that there are some unique health benefits for regular tea drinkers.",
-    "snippet_highlighted_words":
-    [
-      "Focusing on green, black, oolong or white tea, research shows that there are some unique health benefits for regular tea drinkers."
+  "answer_box": {
+    "type": "organic_result",
+    "title": "9 Reasons Why (the Right Amount of) Coffee Is Good for You",
+    "link": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-reasons-why-the-right-amount-of-coffee-is-good-for-you",
+    "displayed_link": "https://www.hopkinsmedicine.org › health › 9-reasons-w...",
+    "snippet": "Here are the top ways coffee can positively impact your health:",
+    "snippet_highlighted_words": [
+      "Here are the top ways coffee can positively impact your health:"
     ],
-    "list":
-    [
-      "You May Have Better Blood Pressure.",
-      "You May Have a Reduced Risk of Certain Cancers.",
-      "You May Have Better Attention.",
-      "You May Have a Supported Immune System.",
-      "You May Have a Longer Life."
+    "list": [
+      "You could live longer. ... ",
+      "Your body may process glucose (or sugar) better. ... ",
+      "You're less likely to develop heart failure. ... ",
+      "You are less likely to develop Parkinson's disease. ... ",
+      "Your liver will thank you. ... ",
+      "Your DNA will be stronger."
     ],
-    "favicon":
-    "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/01b7bed49b8f6522d519f71dc8374a43a33587893895c1a8.png",
-    "source":
-    "EatingWell",
-    "images":
-    [
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/01b7bed49b8f6522d31967348f48b91ac17bee5a9d6367c5.jpeg",
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/01b7bed49b8f6522d31967348f48b91a71753b5cad8b5af4.jpeg",
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/01b7bed49b8f6522d31967348f48b91aa8a6758960f8b624.jpeg"
-    ]
+    "favicon": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/9d2e5f470b8106036aec583e83dee0cc603088cd18ebd619.png",
+    "source": "Johns Hopkins Medicine",
+    "thumbnail": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/9d2e5f470b810603bcd37e8e617c38b9170f6d5173d5ce46.jpeg"
   },
-  "organic_results":
-  [
+  "organic_results": [
     {
-      "position":
-      1,
-      "title":
-      "The Hidden Health Benefits of Tea",
-      "link":
-      "https://www.pennmedicine.org/updates/blogs/health-and-wellness/2019/december/health-benefits-of-tea",
-      "redirect_link":
-      "https://www.google.com/url?sa=t&url=https://www.pennmedicine.org/updates/blogs/health-and-wellness/2019/december/health-benefits-of-tea&usg=AOvVaw1zg-NOHvzyVEjzCFVlY8I4",
-      "displayed_link":
-      "https://www.pennmedicine.org › blogs › december › hea...",
-      "favicon":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50dbaa6d2b27909abdd932f92067a5e1e3e.png",
-      "date":
-      "Mar 4, 2022",
-      "snippet":
-      "Green tea is exceptionally high in flavonoids that can help boost your heart health by lowering bad cholesterol and reducing blood clotting.",
-      "snippet_highlighted_words":
-      [
-        "tea"
+      "position": 1,
+      "title": "9 Health Benefits of Coffee, Based on Science",
+      "link": "https://www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQFnoECCEQAQ",
+      "displayed_link": "https://www.healthline.com › nutrition › top-evidence-b...",
+      "favicon": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/7e98931199794681dce59021912a28a3ca04c710f92b56f555cd1007080362a0.png",
+      "date": "Jan 11, 2022",
+      "snippet": "9 Unique Benefits of Coffee · 1. Boosts energy levels · 2. May be linked to a lower risk of type 2 diabetes · 3. Could support brain health · 4.",
+      "snippet_highlighted_words": [
+        "Benefits of Coffee"
       ],
-      "source":
-      "Penn Medicine"
+      "source": "Healthline"
     },
     {
-      "position":
-      2,
-      "title":
-      "Tea and Health: Studies in Humans - PMC",
-      "link":
-      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4055352/",
-      "redirect_link":
-      "https://www.google.com/url?sa=t&url=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4055352/&usg=AOvVaw2fiXPKwxlfHn6pB1-YExpj",
-      "displayed_link":
-      "https://www.ncbi.nlm.nih.gov › articles › PMC4055352",
-      "favicon":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50d14e049753a2598c61d64b5855b0f27c1.png",
-      "author":
-      "by N Khan",
-      "cited_by":
-      "Cited by 570",
-      "extracted_cited_by":
-      570,
-      "date":
-      "2013",
-      "snippet":
-      "Consumption of tea is increasingly being shown to be associated with enhanced cardiovascular and metabolic health. Green tea caused an increase in the activity ...",
-      "snippet_highlighted_words":
-      [
-        "tea",
-        "tea"
+      "position": 2,
+      "title": "Coffee | The Nutrition Source - HSPH.Harvard.edu",
+      "link": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQFnoECDEQAQ",
+      "displayed_link": "https://www.hsph.harvard.edu › ... › Food Features",
+      "favicon": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/7e98931199794681dce59021912a28a350a9e7cc253dbbb95a44feb7e542348f.png",
+      "snippet": "Various polyphenols in coffee have been shown to prevent cancer cell growth in animal studies. Coffee has also been associated with decreased estrogen levels, a ...",
+      "snippet_highlighted_words": [
+        "coffee",
+        "Coffee"
       ],
-      "source":
-      "National Institutes of Health (NIH) (.gov)"
+      "source": "Harvard T.H. Chan School of Public Health"
     },
     {
-      "position":
-      3,
-      "title":
-      "The Health Benefits of Tea",
-      "link":
-      "https://www.eatright.org/health/wellness/healthful-habits/the-health-benefits-of-tea",
-      "redirect_link":
-      "https://www.google.com/url?sa=t&url=https://www.eatright.org/health/wellness/healthful-habits/the-health-benefits-of-tea&usg=AOvVaw1q_DDtmB--Az8pyq_RW0uT",
-      "displayed_link":
-      "https://www.eatright.org › wellness › healthful-habits",
-      "favicon":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50d7db4724d0d6cd8bd09ce0646c8cc58d6.png",
-      "date":
-      "Nov 2, 2022",
-      "snippet":
-      "Both caffeinated and herbal teas may provide very small amounts of minerals such as potassium, phosphorous, magnesium, sodium, copper and zinc.",
-      "snippet_highlighted_words":
-      [
-        "teas"
+      "position": 3,
+      "title": "Health Benefits of Coffee",
+      "link": "https://www.rush.edu/news/health-benefits-coffee",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.rush.edu/news/health-benefits-coffee&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQFnoECDIQAQ",
+      "displayed_link": "https://www.rush.edu › news › health-benefits-coffee",
+      "favicon": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/7e98931199794681dce59021912a28a3cbc4638d92cf8eeb4871e33a3911bcc2.png",
+      "snippet": "What health benefits does coffee offer? · 1. Improve overall health. · 2. Protect against Type 2 diabetes. · 3. Control Parkinson's disease symptoms. · 4. Slow ...",
+      "snippet_highlighted_words": [
+        "benefits",
+        "coffee"
       ],
-      "source":
-      "Academy of Nutrition and Dietetics: eatright.org"
+      "source": "Rush University Medical Center"
     },
     {
-      "position":
-      4,
-      "title":
-      "Are There Health Benefits to Drinking Tea?",
-      "link":
-      "https://www.webmd.com/diet/tea-health-benefits",
-      "redirect_link":
-      "https://www.google.com/url?sa=t&url=https://www.webmd.com/diet/tea-health-benefits&usg=AOvVaw0gKFQXsLwPucGL0ZBdCUp9",
-      "displayed_link":
-      "https://www.webmd.com › ... › Reference",
-      "favicon":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50dae039a17f80509926ede0c0e40a3791a.png",
-      "snippet":
-      "One study found that they help alleviate hypercholesterolemia (high cholesterol) when consumed in your diet.",
-      "source":
-      "WebMD"
+      "position": 4,
+      "title": "Health Benefits of Coffee",
+      "link": "https://health.clevelandclinic.org/the-health-benefits-of-coffee",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://health.clevelandclinic.org/the-health-benefits-of-coffee&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQFnoECDUQAQ",
+      "displayed_link": "https://health.clevelandclinic.org › the-health-benefits-o...",
+      "favicon": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/7e98931199794681dce59021912a28a35cfb8cf55a1104bcf164077b959d9fcc.png",
+      "date": "Feb 1, 2023",
+      "snippet": "Coffee has surprising health benefits. It's a powerful antioxidant and may reduce your risk for diabetes, cancer, depression and more.",
+      "snippet_highlighted_words": [
+        "Coffee",
+        "benefits"
+      ],
+      "source": "Cleveland Clinic Health Essentials"
     },
     {
-      "position":
-      5,
-      "title":
-      "Tea | The Nutrition Source | Harvard T.H. Chan School of ...",
-      "link":
-      "https://www.hsph.harvard.edu/nutritionsource/food-features/tea/",
-      "redirect_link":
-      "https://www.google.com/url?sa=t&url=https://www.hsph.harvard.edu/nutritionsource/food-features/tea/&usg=AOvVaw3V-oPhiMQIoD6WocmCtwsj",
-      "displayed_link":
-      "https://www.hsph.harvard.edu › ... › Food Features",
-      "favicon":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50d94a48fc358471572429ff9a605426c98.png",
-      "snippet":
-      "Observational research has found that tea consumption of 2-3 cups daily is associated with a reduced risk of premature death, heart disease, stroke, and type 2 ...",
-      "snippet_highlighted_words":
-      [
-        "tea"
+      "position": 5,
+      "title": "Coffee and health: What does the research say?",
+      "link": "https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coffee-and-health/faq-20058339",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/coffee-and-health/faq-20058339&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQFnoECDQQAQ",
+      "displayed_link": "https://www.mayoclinic.org › faq-20058339",
+      "favicon": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/7e98931199794681dce59021912a28a3a5b8a13186f9ae9c460b32e8b8234309.png",
+      "snippet": "Does coffee offer health benefits? · Parkinson's disease · Type 2 diabetes · Liver disease, including liver cancer · Heart attack and stroke.",
+      "snippet_highlighted_words": [
+        "coffee",
+        "benefits"
       ],
-      "source":
-      "Harvard T.H. Chan School of Public Health"
+      "source": "Mayo Clinic"
     },
     {
-      "position":
-      6,
-      "title":
-      "Top 10 health benefits of tea",
-      "link":
-      "https://www.bbcgoodfood.com/howto/guide/top-10-health-benefits-of-tea",
-      "redirect_link":
-      "https://www.google.com/url?sa=t&url=https://www.bbcgoodfood.com/howto/guide/top-10-health-benefits-of-tea&usg=AOvVaw0JO81b9u3Rv3haOjWPvJnN",
-      "displayed_link":
-      "https://www.bbcgoodfood.com › How to › Guide",
-      "favicon":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50de6c74505a7502a207d798fb41d0a32ab.png",
-      "date":
-      "Aug 25, 2023",
-      "snippet":
-      "Tea makes a useful option if you are looking for a flavourful, low-calorie, unsweetened hot drink with less caffeine than coffee.",
-      "snippet_highlighted_words":
-      [
-        "Tea"
+      "position": 6,
+      "title": "Coffee: Health Benefits, Nutrients, Preparation, and More",
+      "link": "https://www.webmd.com/diet/health-benefits-coffee",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.webmd.com/diet/health-benefits-coffee&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQFnoECDMQAQ",
+      "displayed_link": "https://www.webmd.com › ... › Reference",
+      "favicon": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/7e98931199794681dce59021912a28a382216880918355b614aca8c9f1dcc196.png",
+      "date": "Sep 19, 2022",
+      "snippet": "Coffee is an excellent source of several antioxidants, including hydrocinnamic acids and polyphenols. These compounds may play a role in ...",
+      "snippet_highlighted_words": [
+        "Coffee"
       ],
-      "source":
-      "Good Food"
+      "source": "WebMD"
     },
     {
-      "position":
-      7,
-      "title":
-      "6 health benefits of drinking black tea",
-      "link":
-      "https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea",
-      "redirect_link":
-      "https://www.google.com/url?sa=t&url=https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea&usg=AOvVaw3cC_thSyhWGqsUQjhJZGrR",
-      "displayed_link":
-      "https://www.uclahealth.org › news › 6-health-benefits-o...",
-      "favicon":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50d21ccc7f486b343be5622bcb78106f7c9.png",
-      "date":
-      "Nov 14, 2022",
-      "snippet":
-      "Black tea packs a punch when it comes to heart health. Theaflavins help to lower blood cholesterol. And flavonoids — the same antioxidants found ...",
-      "snippet_highlighted_words":
-      [
-        "tea"
+      "position": 7,
+      "title": "6 Health Benefits of Coffee",
+      "link": "https://www.health.com/food/health-benefits-of-coffee",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.health.com/food/health-benefits-of-coffee&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQFnoECDgQAQ",
+      "displayed_link": "https://www.health.com › Nutrition › Nutrition Basics",
+      "favicon": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/7e98931199794681dce59021912a28a39c2fe815f80ce180fa090b230412b16a.png",
+      "date": "Jan 25, 2023",
+      "snippet": "Coffee is linked to many health benefits, from improving mood to reducing cancer risk and other illnesses. Find out all the health benefits ...",
+      "snippet_highlighted_words": [
+        "benefits"
       ],
-      "sitelinks":
-      {
-        "inline":
-        [
+      "sitelinks": {
+        "inline": [
           {
-            "title":
-            "What Makes Black Tea Unique?",
-            "link":
-            "https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea#:~:text=What%20makes%20black%20tea%20unique%3F"
+            "title": "Coffee Protects Against...",
+            "link": "https://www.health.com/food/health-benefits-of-coffee#:~:text=Coffee%20Protects%20Against%20Depression"
           },
           {
-            "title":
-            "Promotes Heart Health",
-            "link":
-            "https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea#:~:text=Promotes%20heart%20health"
+            "title": "Coffee Contains Antioxidants",
+            "link": "https://www.health.com/food/health-benefits-of-coffee#:~:text=Coffee%20Contains%20Antioxidants"
           },
           {
-            "title":
-            "How Much Black Tea Is Too...",
-            "link":
-            "https://www.uclahealth.org/news/6-health-benefits-of-drinking-black-tea#:~:text=How%20much%20black%20tea%20is%20too%20much%3F"
+            "title": "Potential Downsides To...",
+            "link": "https://www.health.com/food/health-benefits-of-coffee#:~:text=Potential%20Downsides%20To%20Consider"
           }
         ]
       },
-      "source":
-      "UCLA Health"
+      "source": "Health"
     },
     {
-      "position":
-      8,
-      "title":
-      "8 Surprising Health Benefits of Tea",
-      "link":
-      "https://www.aarp.org/health/healthy-living/info-2022/benefits-of-tea.html",
-      "redirect_link":
-      "https://www.google.com/url?sa=t&url=https://www.aarp.org/health/healthy-living/info-2022/benefits-of-tea.html&usg=AOvVaw1wS9EdWAk70k2on8CEmapt",
-      "displayed_link":
-      "https://www.aarp.org › healthy-living › info-2022 › be...",
-      "favicon":
-      "https://serpapi.com/searches/6636f33810d74417a04ccf40/images/eb09b7e8b30fd2a792b7057405ddf50da674e75784aaeb080927837f30e52692.png",
-      "date":
-      "Oct 18, 2022",
-      "snippet":
-      "Teas contain flavonoids, which are antioxidants that can prevent cell damage, reduce inflammation, lower your risk of heart disease, ...",
-      "snippet_highlighted_words":
-      [
-        "Teas"
+      "position": 8,
+      "title": "Is coffee good or bad for your health? - HSPH.Harvard.edu",
+      "link": "https://www.hsph.harvard.edu/news/hsph-in-the-news/is-coffee-good-or-bad-for-your-health/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.hsph.harvard.edu/news/hsph-in-the-news/is-coffee-good-or-bad-for-your-health/&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQFnoECDcQAQ",
+      "displayed_link": "https://www.hsph.harvard.edu › news › hsph-in-the-news",
+      "favicon": "https://serpapi.com/searches/663c4d041071f4359235f50a/images/7e98931199794681dce59021912a28a33a5a7b82bc06c31763f1da2bb69f6a12.png",
+      "snippet": "Hu said that moderate coffee intake—about 2–5 cups a day—is linked to a lower likelihood of type 2 diabetes, heart disease, liver and endometrial cancers, ...",
+      "snippet_highlighted_words": [
+        "coffee"
       ],
-      "source":
-      "AARP"
+      "sitelinks": {
+        "inline": [
+          {
+            "title": "Coffee",
+            "link": "https://www.hsph.harvard.edu/nutritionsource/food-features/coffee/"
+          },
+          {
+            "title": "Moderate coffee, tea...",
+            "link": "https://www.hsph.harvard.edu/news/hsph-in-the-news/coffee-caffeine-healthy-lifestyle/"
+          },
+          {
+            "title": "Healthy diet",
+            "link": "https://www.hsph.harvard.edu/news/hsph-in-the-news/coffee-beneficial-healthy-diet/"
+          }
+        ]
+      },
+      "source": "Harvard T.H. Chan School of Public Health"
     }
   ],
-  "top_stories_link":
-  "https://www.google.com/search?q=benefits+of+tea&sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&udm=18&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ8poLegQISxAC",
-  "top_stories_serpapi_link":
-  "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea",
-  "related_searches":
-  [
+  "top_stories_link": "https://www.google.com/search?q=benefits+of+coffee&sca_esv=e5264c2d75c38363&sca_upv=1&hl=en&gl=us&udm=18&sa=X&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQ8poLegQIRRAC",
+  "top_stories_serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+coffee",
+  "related_searches": [
     {
-      "block_position":
-      1,
-      "query":
-      "benefits of tea with milk",
-      "link":
-      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+tea+with+milk&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhYEAE",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+tea+with+milk"
+      "block_position": 1,
+      "query": "benefits of coffee with milk",
+      "link": "https://www.google.com/search?sca_esv=e5264c2d75c38363&sca_upv=1&hl=en&gl=us&q=Benefits+of+coffee+with+milk&sa=X&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQ1QJ6BAhUEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+coffee+with+milk"
     },
     {
-      "block_position":
-      1,
-      "query":
-      "benefits of drinking tea everyday",
-      "link":
-      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+drinking+tea+everyday&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhZEAE",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+drinking+tea+everyday"
+      "block_position": 1,
+      "query": "benefits of coffee sexually",
+      "link": "https://www.google.com/search?sca_esv=e5264c2d75c38363&sca_upv=1&hl=en&gl=us&q=Benefits+of+coffee+sexually&sa=X&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQ1QJ6BAhTEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+coffee+sexually"
     },
     {
-      "block_position":
-      1,
-      "query":
-      "top 10 health benefits of tea",
-      "link":
-      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Top+10+health+benefits+of+tea&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhXEAE",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Top+10+health+benefits+of+tea"
+      "block_position": 1,
+      "query": "75 benefits of coffee",
+      "link": "https://www.google.com/search?sca_esv=e5264c2d75c38363&sca_upv=1&hl=en&gl=us&q=75+benefits+of+coffee&sa=X&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQ1QJ6BAhSEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=75+benefits+of+coffee"
     },
     {
-      "block_position":
-      1,
-      "query":
-      "benefits of black tea",
-      "link":
-      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+black+tea&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhWEAE",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+black+tea"
+      "block_position": 1,
+      "query": "20 benefits of coffee",
+      "link": "https://www.google.com/search?sca_esv=e5264c2d75c38363&sca_upv=1&hl=en&gl=us&q=20+benefits+of+coffee&sa=X&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQ1QJ6BAhREAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=20+benefits+of+coffee"
     },
     {
-      "block_position":
-      1,
-      "query":
-      "benefits of drinking tea at night",
-      "link":
-      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+drinking+tea+at+night&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhVEAE",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+drinking+tea+at+night"
+      "block_position": 1,
+      "query": "benefits of coffee for men",
+      "link": "https://www.google.com/search?sca_esv=e5264c2d75c38363&sca_upv=1&hl=en&gl=us&q=Benefits+of+coffee+for+men&sa=X&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQ1QJ6BAhQEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+coffee+for+men"
     },
     {
-      "block_position":
-      1,
-      "query":
-      "benefits of drinking tea in the morning",
-      "link":
-      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+drinking+tea+in+the+morning&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhUEAE",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+drinking+tea+in+the+morning"
+      "block_position": 1,
+      "query": "benefits of coffee for skin",
+      "link": "https://www.google.com/search?sca_esv=e5264c2d75c38363&sca_upv=1&hl=en&gl=us&q=Benefits+of+coffee+for+skin&sa=X&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQ1QJ6BAhPEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+coffee+for+skin"
     },
     {
-      "block_position":
-      1,
-      "query":
-      "side effects of tea",
-      "link":
-      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Side+effects+of+tea&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhTEAE",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Side+effects+of+tea"
+      "block_position": 1,
+      "query": "coffee disadvantages",
+      "link": "https://www.google.com/search?sca_esv=e5264c2d75c38363&sca_upv=1&hl=en&gl=us&q=Coffee+disadvantages&sa=X&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQ1QJ6BAhOEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Coffee+disadvantages"
     },
     {
-      "block_position":
-      1,
-      "query":
-      "benefits of tea for skin",
-      "link":
-      "https://www.google.com/search?sca_esv=e8f1cfb632bd06ad&gl=us&hl=en&q=Benefits+of+tea+for+skin&sa=X&ved=2ahUKEwidjuTGv_WFAxU7HbkGHWc-CMwQ1QJ6BAhREAE",
-      "serpapi_link":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Benefits+of+tea+for+skin"
+      "block_position": 1,
+      "query": "coffee health benefits and risks",
+      "link": "https://www.google.com/search?sca_esv=e5264c2d75c38363&sca_upv=1&hl=en&gl=us&q=Coffee+health+benefits+and+risks&sa=X&ved=2ahUKEwixicHy2f-FAxUdSTABHSq4DasQ1QJ6BAhNEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=Coffee+health+benefits+and+risks"
     }
   ],
-  "discussions_and_forums":
-  [
+  "discussions_and_forums": [
     {
-      "title":
-      "I love tea and I know it has many benefits, but how ... - Quora",
-      "link":
-      "https://www.quora.com/I-love-tea-and-I-know-it-has-many-benefits-but-how-much-tea-would-one-have-to-drink-daily-to-optimally-benefit-from-drinking-it",
-      "date":
-    ,
-      "source":
-      "Quora  ·  "
+      "title": "What are the 5 unknown benefits of coffee? - Quora",
+      "link": "https://www.quora.com/What-are-the-5-unknown-benefits-of-coffee",
+      "date": null,
+      "source": "Quora  ·  "
     },
     {
-      "title":
-      "What benefits can drinking tea have for the human body?",
-      "link":
-      "https://www.quora.com/What-benefits-can-drinking-tea-have-for-the-human-body",
-      "date":
-    ,
-      "source":
-      "Quora  ·  "
+      "title": "What are the top 8 health benefits of coffee? What are ... - Quora",
+      "link": "https://www.quora.com/What-are-the-top-8-health-benefits-of-coffee-What-are-the-types-of-coffee-and-how-much-cup-of-coffee-consumption-per-day-is-needed-for-a-healthy-life",
+      "date": null,
+      "source": "Quora  ·  "
     },
     {
-      "title":
-      "Do you think green/black teas have any actual health benefits?",
-      "link":
-      "https://www.reddit.com/r/nutrition/comments/18of654/do_you_think_greenblack_teas_have_any_actual/",
-      "date":
-    ,
-      "source":
-      "Reddit  ·  "
+      "title": "I think I want to start drinking coffee for the health benefits and ...",
+      "link": "https://www.reddit.com/r/NoStupidQuestions/comments/152qbnq/i_think_i_want_to_start_drinking_coffee_for_the/",
+      "date": null,
+      "source": "Reddit  ·  "
     }
   ],
-  "pagination":
-  {
-    "current":
-    1,
-    "next":
-    "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=10&sourceid=chrome&ie=UTF-8",
-    "other_pages":
-    {
-      "2":
-      "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=10&sourceid=chrome&ie=UTF-8",
-      "3":
-      "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=20&sourceid=chrome&ie=UTF-8",
-      "4":
-      "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=30&sourceid=chrome&ie=UTF-8",
-      "5":
-      "https://www.google.com/search?q=benefits+of+tea&oq=benefits+of+tea&hl=en&gl=us&start=40&sourceid=chrome&ie=UTF-8"
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=benefits+of+coffee&oq=benefits+of+coffee&hl=en&gl=us&start=10&sourceid=chrome&ie=UTF-8",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=benefits+of+coffee&oq=benefits+of+coffee&hl=en&gl=us&start=10&sourceid=chrome&ie=UTF-8",
+      "3": "https://www.google.com/search?q=benefits+of+coffee&oq=benefits+of+coffee&hl=en&gl=us&start=20&sourceid=chrome&ie=UTF-8",
+      "4": "https://www.google.com/search?q=benefits+of+coffee&oq=benefits+of+coffee&hl=en&gl=us&start=30&sourceid=chrome&ie=UTF-8",
+      "5": "https://www.google.com/search?q=benefits+of+coffee&oq=benefits+of+coffee&hl=en&gl=us&start=40&sourceid=chrome&ie=UTF-8"
     }
   },
-  "serpapi_pagination":
-  {
-    "current":
-    1,
-    "next_link":
-    "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=10",
-    "next":
-    "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=10",
-    "other_pages":
-    {
-      "2":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=10",
-      "3":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=20",
-      "4":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=30",
-      "5":
-      "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+tea&start=40"
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+coffee&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+coffee&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+coffee&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+coffee&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+coffee&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=benefits+of+coffee&start=40"
     }
   }
 }
