@@ -7,6 +7,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.hw.serpapi.GoogleSearch;
 import com.yodist.inquiryiqbe.dto.RelatedQuestion;
+import com.yodist.inquiryiqbe.service.TraceService;
 import com.yodist.inquiryiqbe.util.ResponseBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -47,9 +48,12 @@ public class RelatedQuestionController {
     @Autowired
     private ObjectMapper objectMapper;
 
+    @Autowired
+    private TraceService traceService;
+
     @GetMapping
     public ResponseEntity<Object> getRelatedQuestions() {
-        final Map<String, Object> responseBody = ResponseBuilder.generateDefaultResponseBody();
+        final Map<String, Object> responseBody = ResponseBuilder.generateDefaultResponseBody(traceService.getCurrentTraceId());
         try {
             log.info("in method getRelatedQuestions");
 
