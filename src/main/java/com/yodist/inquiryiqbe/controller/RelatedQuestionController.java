@@ -9,25 +9,17 @@ import com.hw.serpapi.GoogleSearch;
 import com.yodist.inquiryiqbe.dto.RelatedQuestion;
 import com.yodist.inquiryiqbe.service.TraceService;
 import com.yodist.inquiryiqbe.util.ResponseBuilder;
-import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -46,9 +38,6 @@ public class RelatedQuestionController {
     @Value("${serpapi.env:dummy}")
     String serpapiEnv;
 
-    @Value("classpath:data/response-sample1.json")
-    Resource resourceFile;
-
     @Autowired
     RestTemplate restTemplate;
 
@@ -59,7 +48,9 @@ public class RelatedQuestionController {
     private TraceService traceService;
 
     @GetMapping
-    public ResponseEntity<Object> getRelatedQuestions() {
+    public ResponseEntity<Object> getRelatedQuestions(@RequestParam("keyword") String keyword,
+                                                      @RequestParam("language") String language,
+                                                      @RequestParam("country") String country) {
         final Map<String, Object> responseBody = ResponseBuilder.generateDefaultResponseBody(traceService.getCurrentTraceId());
         try {
             log.info("in method getRelatedQuestions");
@@ -67,17 +58,15 @@ public class RelatedQuestionController {
             Map<String, String> parameter = new HashMap<>();
             log.debug("serpapi.key: {}", serpapiKey);
 
-            parameter.put("q", "Benefits of Tea");
-            parameter.put("location", "Austin, Texas, United States");
+            parameter.put("q", keyword);
             parameter.put("google_domain", "google.com");
-            parameter.put("hl", "en");
-            parameter.put("gl", "us");
+            parameter.put("hl", language);
+            parameter.put("gl", country);
             parameter.put("api_key", serpapiKey);
 
             List<RelatedQuestion> questionList = new ArrayList<>();
             JsonObject jsonObject;
             if ("production".equals(serpapiEnv)) {
-                // Create search
                 GoogleSearch search = new GoogleSearch(parameter);
                 jsonObject = search.getJson();
             } else {
@@ -93,15 +82,19 @@ public class RelatedQuestionController {
                 questionList.add(qDto);
             }
 
-            // add dummy subquestion
-            for (RelatedQuestion q : questionList) {
-                List<RelatedQuestion> dummySubQuestionList = new ArrayList<>();
-                for (RelatedQuestion sq : questionList) {
-                    RelatedQuestion subQuestion = new RelatedQuestion();
-                    subQuestion.setQuestion(sq.getQuestion());
-                    dummySubQuestionList.add(subQuestion);
+            if ("production".equals(serpapiEnv)) {
+
+            } else {
+                // add dummy subquestion
+                for (RelatedQuestion q : questionList) {
+                    List<RelatedQuestion> dummySubQuestionList = new ArrayList<>();
+                    for (RelatedQuestion sq : questionList) {
+                        RelatedQuestion subQuestion = new RelatedQuestion();
+                        subQuestion.setQuestion(sq.getQuestion());
+                        dummySubQuestionList.add(subQuestion);
+                    }
+                    q.setSubQuestions(dummySubQuestionList);
                 }
-                q.setSubQuestions(dummySubQuestionList);
             }
 
             responseBody.put("data", questionList);
