@@ -11,5 +11,5 @@ import java.util.List;
 @Data
 public class RelatedQuestion {
     private String question;
-    private List<RelatedQuestion> subQuestion;
+    private List<RelatedQuestion> subQuestions;
 }
