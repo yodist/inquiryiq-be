@@ -81,8 +81,6 @@ public class RelatedQuestionController {
             } else {
                 File sampleResponse = resourceFile.getFile();
                 String sampleJson = new String(Files.readAllBytes(sampleResponse.toPath()));
-//                Map<String, Object> sampleJsonMap = new ObjectMapper().readValue(sampleJson, new TypeReference<>() {
-//                });
                 List<RelatedQuestion> questionList = new ArrayList<>();
                 JsonObject jsonObject = JsonParser.parseString(sampleJson).getAsJsonObject();
                 JsonArray jsonArray = jsonObject.getAsJsonArray("related_questions");
@@ -92,6 +90,17 @@ public class RelatedQuestionController {
                     RelatedQuestion qDto = new RelatedQuestion();
                     qDto.setQuestion(qName);
                     questionList.add(qDto);
+                }
+
+                // add dummy subquestion
+                for (RelatedQuestion q : questionList) {
+                    List<RelatedQuestion> dummySubQuestionList = new ArrayList<>();
+                    for (RelatedQuestion sq : questionList) {
+                        RelatedQuestion subQuestion = new RelatedQuestion();
+                        subQuestion.setQuestion(sq.getQuestion());
+                        dummySubQuestionList.add(subQuestion);
+                    }
+                    q.setSubQuestion(dummySubQuestionList);
                 }
 
                 responseBody.put("data", questionList);
