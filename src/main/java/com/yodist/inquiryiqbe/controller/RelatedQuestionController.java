@@ -17,6 +17,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,6 +33,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/related-question")
 public class RelatedQuestionController {
@@ -72,43 +74,37 @@ public class RelatedQuestionController {
             parameter.put("gl", "us");
             parameter.put("api_key", serpapiKey);
 
+            List<RelatedQuestion> questionList = new ArrayList<>();
+            JsonObject jsonObject;
             if ("production".equals(serpapiEnv)) {
                 // Create search
                 GoogleSearch search = new GoogleSearch(parameter);
-
-                JsonObject result = search.getJson();
-
-//                String searchResult = result.getAsJsonArray("organic_results")
-//                        .get(0)
-//                        .getAsJsonObject()
-//                        .get("snippet")
-//                        .getAsString();
+                jsonObject = search.getJson();
             } else {
                 String sampleJson = getSampleJson();
-                List<RelatedQuestion> questionList = new ArrayList<>();
-                JsonObject jsonObject = JsonParser.parseString(sampleJson).getAsJsonObject();
-                JsonArray jsonArray = jsonObject.getAsJsonArray("related_questions");
-                for (JsonElement el : jsonArray) {
-                    JsonObject question = el.getAsJsonObject();
-                    String qName = question.get("question").getAsString();
-                    RelatedQuestion qDto = new RelatedQuestion();
-                    qDto.setQuestion(qName);
-                    questionList.add(qDto);
-                }
-
-                // add dummy subquestion
-                for (RelatedQuestion q : questionList) {
-                    List<RelatedQuestion> dummySubQuestionList = new ArrayList<>();
-                    for (RelatedQuestion sq : questionList) {
-                        RelatedQuestion subQuestion = new RelatedQuestion();
-                        subQuestion.setQuestion(sq.getQuestion());
-                        dummySubQuestionList.add(subQuestion);
-                    }
-                    q.setSubQuestions(dummySubQuestionList);
-                }
-
-                responseBody.put("data", questionList);
+                jsonObject = JsonParser.parseString(sampleJson).getAsJsonObject();
             }
+            JsonArray jsonArray = jsonObject.getAsJsonArray("related_questions");
+            for (JsonElement el : jsonArray) {
+                JsonObject question = el.getAsJsonObject();
+                String qName = question.get("question").getAsString();
+                RelatedQuestion qDto = new RelatedQuestion();
+                qDto.setQuestion(qName);
+                questionList.add(qDto);
+            }
+
+            // add dummy subquestion
+            for (RelatedQuestion q : questionList) {
+                List<RelatedQuestion> dummySubQuestionList = new ArrayList<>();
+                for (RelatedQuestion sq : questionList) {
+                    RelatedQuestion subQuestion = new RelatedQuestion();
+                    subQuestion.setQuestion(sq.getQuestion());
+                    dummySubQuestionList.add(subQuestion);
+                }
+                q.setSubQuestions(dummySubQuestionList);
+            }
+
+            responseBody.put("data", questionList);
             responseBody.put("message", "everything is alright");
             log.debug(objectMapper.writeValueAsString(responseBody));
         } catch (Exception ex) {
