@@ -9,10 +9,12 @@ import com.hw.serpapi.GoogleSearch;
 import com.yodist.inquiryiqbe.dto.RelatedQuestion;
 import com.yodist.inquiryiqbe.service.TraceService;
 import com.yodist.inquiryiqbe.util.ResponseBuilder;
+import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,6 +23,9 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -79,8 +84,7 @@ public class RelatedQuestionController {
 //                        .get("snippet")
 //                        .getAsString();
             } else {
-                File sampleResponse = resourceFile.getFile();
-                String sampleJson = new String(Files.readAllBytes(sampleResponse.toPath()));
+                String sampleJson = getSampleJson();
                 List<RelatedQuestion> questionList = new ArrayList<>();
                 JsonObject jsonObject = JsonParser.parseString(sampleJson).getAsJsonObject();
                 JsonArray jsonArray = jsonObject.getAsJsonArray("related_questions");
@@ -113,5 +117,15 @@ public class RelatedQuestionController {
             return ResponseEntity.internalServerError().body(responseBody);
         }
         return ResponseEntity.ok(responseBody);
+    }
+
+    private static String getSampleJson() throws IOException {
+        ClassPathResource classPathResource = new ClassPathResource("data/response-sample1.json");
+        StringBuilder sb = new StringBuilder();
+        InputStream inputStream = classPathResource.getInputStream();
+        for (int ch; (ch = inputStream.read()) != -1; ) {
+            sb.append((char) ch);
+        }
+        return sb.toString();
     }
 }
