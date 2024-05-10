@@ -100,7 +100,7 @@ public class RelatedQuestionController {
                         subQuestion.setQuestion(sq.getQuestion());
                         dummySubQuestionList.add(subQuestion);
                     }
-                    q.setSubQuestion(dummySubQuestionList);
+                    q.setSubQuestions(dummySubQuestionList);
                 }
 
                 responseBody.put("data", questionList);
