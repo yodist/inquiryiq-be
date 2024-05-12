@@ -54,13 +54,12 @@ public class RelatedQuestionService {
             log.info("in method getRelatedQuestions");
 
             Map<String, String> parameter = new HashMap<>();
-            log.debug("serpapi.key: {}", serpapiKey);
-
             parameter.put("q", req.getKeyword());
             parameter.put("google_domain", googleDomain);
             parameter.put("hl", req.getLanguage());
             parameter.put("gl", req.getCountry());
             parameter.put("api_key", serpapiKey);
+            log.debug("serpapi.key: {}", serpapiKey);
 
             JsonObject jsonObject;
             if (isProduction()) {
